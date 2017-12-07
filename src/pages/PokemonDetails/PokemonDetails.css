@@ -1,0 +1,141 @@
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #666666;
+}
+
+.details__avatar {
+    align-items: flex-start;
+    height: 300px;
+    width: 300px;
+}
+
+.details__title {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.details__desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size:10px;
+    width: 1150px;
+}
+
+.details__about {
+    width:250px;
+}
+
+.details__ab {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+.details__info {
+    font-size: 10px;
+    display: grid;
+    font-weight: normal;
+}
+
+.details__height{
+     grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  font-weight: normal;
+}
+
+.details__gender{
+     grid-column: 2 / 2;
+  grid-row: 1 / 2;
+  font-weight: normal;
+}
+
+.details__weight{
+     grid-column: 1 / 2;
+  grid-row: 2 / 2;
+  font-weight: normal;
+}
+
+.details__type{
+    grid-column: 2 / 2;
+  grid-row: 2 / 2;
+  font-weight: normal;
+}
+
+.details__thumbs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    font-weight: normal;
+}
+
+.details__like {
+    margin: 5px;
+    margin-right: 20px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.details__dislike {
+    margin: 5px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.details__likeImg:hover {
+    background-image: url(../../assets/thumb_up_selected.png);
+    background-repeat: no-repeat;
+}
+
+.details__dislikeImg:hover {
+    background-image: url(../../assets/thumb_down_selected.png);
+    background-repeat: no-repeat;
+}
+
+ .details__comments {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.details__text {
+    margin-left: 200px;
+} 
+
+.details__btn {
+    margin-left: 300px;
+    width: 900px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+
+.details__comm__text {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #234790;
+    border-radius: 5px;
+    color: #234790;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.details__votecount {
+    font-size: 15px;
+}

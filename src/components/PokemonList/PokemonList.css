@@ -1,0 +1,7 @@
+.pokemon-list__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    font-weight: normal;
+}

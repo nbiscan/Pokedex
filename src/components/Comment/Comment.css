@@ -1,0 +1,21 @@
+.comment {
+    margin-left: 100px;
+    width: 100%;
+    
+}
+
+.comment__text {
+font-weight: normal;
+margin-left: 100px;
+}
+
+.comment__date {
+ font-weight: normal;
+ margin-left: 800px;
+}
+
+.comment__author {
+ font-weight: normal;
+margin-left: 100px;
+}
+
